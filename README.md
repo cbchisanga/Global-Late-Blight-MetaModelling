@@ -41,13 +41,13 @@ and MIRCA2000 from Uni Frankfurt, MIRCA2000, [(Portman et al. 2000)](http://www2
         * susceptible_monthly_gam.txt - Look up table values for a resistant potato cultivar, daily time-step
     * **Planting Seasons** - Geotiff files with EcoCrop model output of the predicted month where planting results in the highest 90 day yield
     * CRU_CL20_Combined.tif - Geotiff file of combined rainfed and irrigated potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 03 - EcoCrop CRU CL2.0 Potato Growing Seasons.R, found in the Models directory
-    * CRU_CL20_PIR.tif - R raster package native file of irrigated potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 03 - EcoCrop CRU CL2.0 Potato Growing Seasons.R, found in the Models directory
-    * CRU_CL20_PRF.tif - R raster package native file of rainfed potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script,03 - EcoCrop CRU CL2.0 Potato Growing Seasons.R, found in the Models directory
+    * CRU_CL20_PIR.tif - Geotiff file of irrigated potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 03 - EcoCrop CRU CL2.0 Potato Growing Seasons.R, found in the Models directory
+    * CRU_CL20_PRF.tif - Geotiff file of rainfed potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script,03 - EcoCrop CRU CL2.0 Potato Growing Seasons.R, found in the Models directory
     * A2_2050_Combined.tif - Geotiff file of combined rainfed and irrigated potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 04 - EcoCrop CRU A2 Scenario Potato Growing Seasons.R, found in the Models directory
     * A2_2050_PIR.tif - R raster package native file of irrigated potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 04 - EcoCrop CRU A2 Scenario Potato Growing Seasons.R, found in the Models directory
     * A2_2050_PRF.tif - R raster package native file of rainfed potato planting dates based on CRU CL2.0 data using EcoCrop to predict the month for crop establishment that results in the highest yield, generated using the script, 04 - EcoCrop CRU A2 Scenario Potato Growing Seasons.R, found in the Models directory
 
-* **Predictions** - Geotif files of SimCastMeta predictions for each of 12 months globally
+* **Predictions** - Geotiff files of SimCastMeta predictions for each of 12 months globally
 
 * **Data** - Contains supporting data that is unmodified, nothing should be upload here via git. It is for downloading and storage only while in use and for storage on your local machine to save time running scripts in the future.
 
